@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500;700&display=swap');
+* {
+    font-family: 'Golos Text', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div > *, header {
+    font-size: 2rem;
+}
+header > * {
+    margin: 0 1rem 0 1rem;
+}
+header input {
+    width: 6rem;
+}
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 5rem;
+}
+.mainBody div {
+    height: fit-content;
+}
